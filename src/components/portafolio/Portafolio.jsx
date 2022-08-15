@@ -3,7 +3,11 @@ import './portafolio.css';
 
 const Portafolio = () => {
     return (
-        <div>Portafolio</div>
+        <section>
+            <div id="portafolio">
+                <h2>Portafolio</h2>
+            </div>
+        </section>
     );
 };
 
