@@ -7,7 +7,7 @@ import {SiGooglemessages} from "react-icons/si";
 const NavBar = () => {
     return (
         <nav >
-            <a href={"#"}><ImHome /></a>
+            <a href={"#"}  className='active'><ImHome /></a>
             <a href={"#about"}><ImUser /></a>
             <a href={"#experience"}><ImBook /></a>
             <a href={"#services"}><RiServiceFill /></a>
@@ -16,4 +16,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default NavBar
